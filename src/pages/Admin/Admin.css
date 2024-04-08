@@ -1,0 +1,41 @@
+.Admin .ant-layout-sider-children {
+  padding: 15px 0;
+  background: none;
+}
+
+.Admin .ant-menu-item.ant-menu-item-selected {
+  background: none;
+  color: red;
+}
+.Admin .ant-menu-item.ant-menu-item-selected span {
+  font-size: 20px;
+}
+
+.Admin .ant-menu-item.ant-menu-item-selected .icon {
+  font-size: 30px;
+}
+
+.menu-user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 15px;
+}
+
+.menu-user ul {
+  height: 50px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.menu-user img {
+  margin-top: 20px;
+  width: 35px;
+  height: 35px;
+  border-radius: 100px;
+}
+.menu-user .ant-menu-submenu-title {
+  display: flex;
+}

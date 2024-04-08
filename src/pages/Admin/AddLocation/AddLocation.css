@@ -1,0 +1,46 @@
+.add-location {
+  padding: 0 200px;
+}
+.add-location .add-header {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+.add-location .add-header i {
+  font-size: 25px;
+}
+.add-location-title {
+  color: red;
+  margin: 10px;
+  text-align: center;
+}
+.add-location-content {
+  display: flex;
+  justify-content: center;
+  grid-gap: 10px;
+}
+
+.add-location-name {
+  padding: 10px 0;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.add-location-input {
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 300px  !important;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.add-location-btn {
+  padding: 10px 15px;
+  border: none;
+  color: white ;
+  border-radius: 50px ;
+  background-color: rgb(241, 29, 32);
+  margin: 10px 0;
+}

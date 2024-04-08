@@ -1,0 +1,113 @@
+.Admin .list-user h2 {
+  text-align: center;
+  margin: 10px 0;
+}
+.Admin .list-user input {
+  width: 200px;
+}
+.Admin .ant-input-wrapper {
+  width: 200px;
+}
+.Admin .list-user button {
+  background: red;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.Admin .list-user .ant-btn {
+  border-radius: 0;
+  color: white !important ;
+}
+.Admin .list-user .ant-btn span {
+  opacity: 1;
+  color: white !important;
+}
+.ant-modal-body div {
+  margin: 5px 0;
+}
+.ant-modal-body input {
+  width: 100%;
+  padding: 5px 10px;
+}
+.ant-modal-body .list-user-title {
+  margin: 10px 0;
+}
+
+.ant-modal-body select {
+  width: 100%;
+  padding: 5px 10px;
+}
+.ant-modal-body .birth-date {
+  width: 180px;
+}
+.ant-modal-content .handle {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.ant-modal-content .handle button {
+  padding: 5px 10px;
+}
+.ant-modal-content .handle .btn-edit {
+  background: rgb(87, 87, 245);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.ant-modal-footer {
+  display: none;
+}
+.ant-modal-footer button {
+  display: flex;
+  align-items: center;
+}
+.Admin .list-user table {
+  position: relative;
+}
+.Admin .list-user thead {
+  background: rgb(243, 69, 69);
+  color: white;
+}
+.Admin .list-user th {
+  padding: 10px 40px;
+}
+
+.Admin .list-user td {
+  text-align: center;
+  padding: 30px;
+}
+.Admin .list-user img {
+  width: 50px;
+  border-radius: 10px;
+}
+.Admin .list-user .btn-edit {
+  background: rgb(87, 87, 245);
+  padding: 5px 30px;
+  border: none;
+  margin-bottom: 2px;
+  color: white;
+  width: 200px;
+}
+
+.Admin .list-user .btn-delete {
+  background: red;
+  padding: 5px 30px;
+  border: none;
+  color: white;
+  width: 200px;
+}
+.Admin .list-user .ant-pagination {
+  display: flex;
+  right: 0;
+  position: absolute;
+  margin-top: -10px;
+}
+
+.Admin .list-user .ant-input-group-wrapper{
+  margin: 10px 0;
+}
+

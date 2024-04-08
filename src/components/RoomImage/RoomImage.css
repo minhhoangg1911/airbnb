@@ -1,0 +1,44 @@
+.Room-img .title-content .title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+}
+.Room-img i {
+  padding: 10px;
+}
+
+.Room-img .judge-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Room-img .judge-content .share {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Room-img a {
+  color: black;
+  font-weight: 600;
+}
+.Room-img span {
+  height: 100px;
+  font-weight: 400;
+  padding: 5px;
+}
+
+/* .img-rent {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 50% 25% 25%;
+  grid-auto-rows: auto;
+  grid-gap: 10px;
+  overflow: hidden;
+  border-radius: 20px;
+} */
+
+.img-item img {
+  width: 100%;
+  overflow: hidden;
+}

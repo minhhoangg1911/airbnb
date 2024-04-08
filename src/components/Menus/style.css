@@ -1,0 +1,408 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  height: 100%;
+  width: 100%;
+}
+
+.header .user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 90px;
+}
+.icon-home {
+  color: #ff385c;
+  font-size: 16px;
+}
+.home-text {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.user-home {
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  background-color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+.user-home:hover {
+  background-color: #dddddd;
+}
+
+.action button {
+  margin: 0 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  border: 1px solid #dddddd;
+  width: 850px;
+  margin-top: 30px;
+  border-radius: 50px;
+}
+
+.tab-header {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.tab-header .place:hover {
+  opacity: 0.65;
+  cursor: pointer;
+}
+.place {
+  position: relative;
+}
+
+.place::after {
+  content: "";
+}
+
+.place:hover::after {
+  transition: 1.5s;
+  background: black;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: calc(100% + 8px);
+  width: 100%;
+}
+.experience {
+  position: relative;
+}
+
+.experience::after {
+  content: "";
+}
+.experience:hover::after {
+  transition: 1.5s;
+  background: black;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: calc(100% + 8px);
+  width: 100%;
+}
+.experience-online {
+  position: relative;
+}
+.experience-online::after {
+  content: "";
+}
+.experience-online:hover::after {
+  transition: 1.5s;
+  background: black;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: calc(100% + 8px);
+  width: 100%;
+}
+
+.experience-online:hover {
+  opacity: 0.65;
+  cursor: pointer;
+}
+
+.tab-header .experience:hover {
+  opacity: 0.65;
+  cursor: pointer;
+}
+
+.location {
+  width: 33%;
+  padding: 18px 25px;
+}
+.location span {
+  margin: 0;
+}
+
+.location div {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0 15px;
+}
+.location input {
+  font-size: 15px;
+}
+.location input {
+  border: none;
+  outline: none;
+}
+.location:hover input {
+  background: #dddddd;
+}
+
+.location:hover {
+  background: #dddddd;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.date-service-reservation {
+  width: 33%;
+}
+.service {
+  padding: 0px 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* .location::after {
+  content: "";
+  border-width: 0 1px;
+  border-style: solid;
+  border-color: #ebebeb;
+  margin-left: 70px;
+} */
+.space {
+  width: 1px;
+  height: 30px;
+  background: #ebebeb;
+  margin-top: 20px;
+}
+
+.service-add-date {
+  font-size: 15px;
+  opacity: 0.65;
+}
+
+.service-reservation {
+  display: flex;
+}
+.service-client {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  padding: 18px 15px;
+}
+
+.service-client:hover {
+  background: #dddddd;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.service-client:hover.ant-picker {
+  background: #dddddd;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.service-client:hover input {
+  cursor: pointer;
+}
+
+.service-client:hover {
+  background: #dddddd;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.ant-picker {
+  background: none;
+  border-radius: 50px;
+}
+
+.reservation {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0px 10px;
+}
+.reservation-add-date {
+  font-size: 15px;
+  opacity: 0.65;
+}
+
+.reservation-client {
+  padding: 18px 15px;
+}
+.reservation-client:hover {
+  background: #dddddd;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.date-serveice {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+.date-add {
+  font-size: 15px;
+  opacity: 0.65;
+}
+
+.date {
+  padding: 18px 24px;
+}
+.date:hover {
+  background: #dddddd;
+  border-radius: 50px;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  width: 33%;
+  margin-left: 10px;
+}
+.search-client {
+  padding: 18px 24px;
+}
+.search-client span {
+  margin: 0;
+}
+
+.add-client:hover {
+  color: black !important;
+  opacity: 0.65;
+}
+
+.search:hover .search {
+  background: #dddddd;
+}
+.search:hover .add-client {
+  background: #dddddd;
+}
+.search:hover .add-client span {
+  background: #dddddd;
+}
+
+.client {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0 15px;
+}
+.client-add {
+  font-size: 15px;
+  background: #dddddd;
+}
+
+.search-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  height: 50px;
+  width: 50px;
+  background: #ff385c;
+  border-radius: 100px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.search:hover {
+  background: #dddddd;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.search-icon i {
+  color: white;
+}
+
+.date-picker {
+  border: none;
+  outline: none;
+}
+
+.anticon-calendar {
+  display: none;
+}
+.adult {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.children {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.baby {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.pet {
+  padding: 10px 0;
+}
+.btn-button button {
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+  font-size: 20px;
+}
+.btn-button span {
+  padding: 0 5px;
+}
+
+.search-location {
+  width: 500px;
+}
+.search-location span {
+  margin: 0;
+}
+.row {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 4fr);
+  gap: 5px;
+  width: 350px;
+}
+.row .col {
+  text-align: center;
+  width: 100px;
+  flex-wrap: nowrap;
+}
+
+.row img {
+  width: 100px;
+  height: 100px;
+}
+
+.ant-input-wrapper {
+  margin-top: 5px;
+  width: 200px;
+}
+.ant-btn span {
+  opacity: 0.65;
+}
+
+.search-hide {
+  background: #dddddd;
+  border-radius: 50px;
+}
+
+.Active {
+  background: white !important;
+  border-radius: 50px;
+}
+
+.ant-popover-inner {
+  padding: 40px !important;
+ 
+}

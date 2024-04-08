@@ -1,0 +1,193 @@
+.location-list {
+  padding: 0 30px;
+}
+
+.Admin .location-list .location-image {
+  height: 100px;
+  width: 100px;
+}
+
+.Admin .location-list .image-change {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.Admin .location-list .image-change .image-icon {
+  padding: 10px 15px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.Admin .location-list .image-change .image-icon button {
+  border: none;
+  outline: none;
+  background: white;
+}
+.Admin .location-list .location-judge {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.Admin .location-list .location-judge i {
+  color: rgb(235, 142, 43);
+  font-size: 15px;
+}
+.Admin .location-list .btn-detail {
+  margin-top: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.2) !important;
+  background: rgb(246, 224, 224);
+  padding: 5px 30px;
+  border: none;
+  color: black;
+  width: 200px;
+}
+.ant-modal-content .image-title {
+  color: black;
+}
+
+.ant-modal-content .ant-upload.ant-upload-select .atn-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ant-modal-body input {
+  outline: none;
+}
+.ant-modal-body .btn-cancel {
+  padding: 10px;
+}
+.ant-modal-body .btn-detail {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+}
+.ant-btn-default {
+  background-color: #ffffff;
+  border-color: #d9d9d9;
+  color: rgba(0, 0, 0, 0.88);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.02);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-room-input {
+  margin: 10px 0;
+}
+.ant-input-wrapper {
+  width: 200px;
+}
+
+.Admin .location-list h2 {
+  text-align: center;
+  margin: 10px 0;
+}
+.Admin .location-list input {
+  width: 200px;
+}
+.Admin .ant-input-wrapper {
+  width: 200px;
+}
+.Admin .location-list button {
+  background: red;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.Admin .location-list .ant-btn {
+  border-radius: 0;
+  color: white !important ;
+}
+.Admin .location-list .ant-btn span {
+  opacity: 1;
+  color: white !important;
+}
+.ant-modal-body div {
+  margin: 5px 0;
+}
+.ant-modal-body input {
+  width: 100%;
+  padding: 5px 10px;
+}
+.ant-modal-body .list-user-title {
+  margin: 10px 0;
+}
+
+.ant-modal-body select {
+  width: 100%;
+  padding: 5px 10px;
+}
+.ant-modal-body .birth-date {
+  width: 180px;
+}
+.ant-modal-content .handle {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.ant-modal-content .handle button {
+  padding: 5px 10px;
+}
+.ant-modal-content .handle .btn-edit {
+  background: rgb(87, 87, 245);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.ant-modal-footer {
+  display: none;
+}
+.ant-modal-footer button {
+  display: flex;
+  align-items: center;
+}
+.Admin .location-list table {
+  position: relative;
+}
+.Admin .location-list thead {
+  background: rgb(243, 69, 69);
+  color: white;
+}
+.Admin .location-list th {
+  padding: 10px 40px;
+}
+
+.Admin .location-list td {
+  text-align: center;
+  padding: 30px;
+}
+.Admin .location-list img {
+  width: 50px;
+  border-radius: 10px;
+}
+.Admin .location-list .btn-edit {
+  background: rgb(87, 87, 245);
+  padding: 5px 30px;
+  border: none;
+  margin-bottom: 2px;
+  color: white;
+  width: 200px;
+}
+
+.Admin .location-list .btn-delete {
+  background: red;
+  padding: 5px 30px;
+  border: none;
+  color: white;
+  width: 200px;
+}
+.Admin .location-list .ant-pagination {
+  display: flex;
+  right: 0;
+  position: absolute;
+  margin-top: -10px;
+}
+.Admin .location-list .ant-input-group-wrapper{
+  margin: 10px 0;
+}

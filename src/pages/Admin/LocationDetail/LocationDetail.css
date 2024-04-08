@@ -1,0 +1,62 @@
+.location-detail {
+  padding: 0 40px;
+}
+
+.location-content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap:20px
+}
+
+.Admin .location-left .location-title h2 {
+  text-align: left;
+  margin: 10px 0;
+}
+
+.Admin .location-right .location-info-image {
+  width: 300px;
+  height: 200px;
+}
+
+.location-left .location-name {
+  margin: 10px 0;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.location-left .locaiton-description .description {
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.location-convenient {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 10px;
+}
+.convenient-left .convenient-item {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.convenient-right .convenient-item {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.location-room {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 10px;
+}
+.location-room .location-room-item {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+

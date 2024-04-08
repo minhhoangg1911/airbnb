@@ -1,0 +1,91 @@
+.footer {
+  width: 100%;
+  background: #f7f7f7;
+}
+.footer hr {
+  opacity: 0.1;
+}
+
+.footer .support {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  column-gap: 15px;
+}
+
+.footer .support div h3 {
+  margin-bottom: 12px;
+  font-size: 15px;
+  color: black;
+  margin: 10px 0;
+}
+.footer .support div ul {
+  list-style: none;
+  display: grid;
+  gap: 12px;
+}
+.footer .support div ul li {
+  margin-top: 5px;
+}
+.footer .support div ul li a {
+  font-size: 15px;
+  color: #222222;
+}
+
+.footer .support div ul li a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.footer .contact {
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .contact .left {
+  width: 50%;
+  text-align: left;
+  margin-left: 100px;
+}
+.footer .contact .left span {
+  padding: 0 5px;
+  font-size: 15px;
+  color: #222222;
+}
+.footer .contact .left span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.footer .contact .right {
+  width: 50%;
+  text-align: right;
+  margin-right: 100px;
+}
+.footer .contact .right span {
+  padding: 0 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.footer .contact .right span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.footer .contact .right i {
+  padding: 0 5px;
+}
+.footer .contact .right i:hover {
+  cursor: pointer;
+}
+.footer .contact .right .icon {
+  font-size: 20px;
+}

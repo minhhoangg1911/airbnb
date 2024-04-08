@@ -1,0 +1,101 @@
+.sign-in {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background-image: url(https://blog.artonemfg.com/hubfs/airbnb-3399753_1920.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .sign-in-container {
+  max-width: 450px;
+  width: 100%;
+  padding: 25px 30px;
+  font-weight: 500;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.sign-in-container .sign-in-form .title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  color: #2856d6;
+}
+
+.sign-in-form .icon-home i {
+  margin: 0 5px;
+  font-size: 30px;
+  font-weight: "bold";
+}
+
+.sign-in.user-details {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.sign-in-form form .user-details .input-box {
+  margin: 20px 0 12px 0;
+  width: 100%;
+}
+.sign-in-form .user-details .input-box .details {
+  font-weight: 500px;
+  margin-bottom: 5px;
+}
+
+.sign-in-form .user-details .input-box input {
+  margin-top: 10px;
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+}
+
+.sign-in-form .user-details .gender {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.sign-in-form .user-details .gender select {
+  height: 45px;
+  padding: 10px;
+}
+
+.sign-in-form .btn-sign-in {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-sign-in button {
+  width: 100px;
+  background: orange;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.sign-in-form .nav-link {
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+}
+.sign-in-form .nav-link a {
+  text-decoration: none;
+  color: #de3131;
+}
+
+.sign-in .errors {
+  margin: 5px 0;
+  color: red;
+}

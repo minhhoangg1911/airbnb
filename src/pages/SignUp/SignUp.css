@@ -1,0 +1,96 @@
+.sign-up {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background-image: url(https://blog.artonemfg.com/hubfs/airbnb-3399753_1920.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sign-up-container {
+  width: 700px;
+  padding: 25px 30px;
+  font-weight: 500;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.sign-up-container .sign-up-form .title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  color: #2856d6;
+}
+
+.sign-up-form .icon-home i {
+  margin: 0 5px;
+  font-size: 30px;
+  font-weight: "bold";
+}
+
+.sign-up-form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+form .user-details .input-box {
+  margin: 10px;
+  width: calc(100% / 2 - 20px);
+}
+
+.sign-up .user-details .input-box .details {
+  font-weight: 500px;
+  margin-bottom: 5px;
+}
+
+.sign-up .user-details .input-box input {
+  margin-top: 10px;
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+}
+
+.user-details .gender {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.user-details .gender select {
+  height: 45px;
+  padding: 10px;
+}
+
+.btn-sign-up {
+  text-align: center;
+  width: 100%;
+}
+.btn-sign-up button {
+  width: 300px;
+  background: orange;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.nav-link {
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+}
+.nav-link a {
+  text-decoration: none;
+  color: #de3131;
+}
+.sign-up .input-box .errors {
+  margin: 5px 0;
+  color:red;
+}

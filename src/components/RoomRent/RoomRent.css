@@ -1,0 +1,344 @@
+.room-rent {
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+.room-rent .room-left {
+  margin: 10px 0;
+  width: 60%;
+  text-align: center;
+}
+
+.room-left .room-owner {
+  display: flex;
+  margin: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.room-left .room-owner img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  margin-right: 20px;
+}
+.room-left .room-owner h2 {
+  text-align: left;
+}
+.room-left .room-detail {
+  display: flex;
+  gap: 15px;
+}
+.room-left .room-detail .detail {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 25px 25px;
+  margin: 10px 0px;
+  border-radius: 5px;
+}
+.room-left .room-detail .detail i {
+  font-size: 25px;
+}
+.room-left .room-detail .detail span {
+  font-weight: bold;
+}
+.room-left .room-content {
+  margin-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  width: 90%;
+}
+.room-left .room-content .room {
+  display: flex;
+  gap: 10px;
+}
+.room-left .room-content .room i {
+  margin: 20px 0;
+  margin-right: 15px;
+  font-size: 20px;
+}
+.room-left .room-content .room div {
+  text-align: left;
+  margin: 10px 0;
+}
+.room-left .room-content .room div h3 {
+  margin: 10px 0;
+}
+.room-left .room-content .room div span {
+  font-size: 15px;
+  opacity: 0.5;
+}
+.room-left .sleep-place {
+  text-align: left;
+  margin-top: 20px;
+  width: 90%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.room-left .sleep-place .sleep-title {
+  margin-bottom: 20px;
+}
+.room-left .sleep-place .sleep-content {
+  width: 200px;
+  height: 150px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.room-left .sleep-place .sleep-content i,
+h3,
+span {
+  margin: 10px 0;
+}
+.room-left .sleep-place .sleep-content span {
+  opacity: 0.5;
+}
+.room-left .introduce {
+  text-align: left;
+  margin-top: 20px;
+}
+.room-left .introduce .introduce-content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.room-left .introduce .introduce-content .text-through {
+  text-decoration: line-through;
+}
+
+.room-left .introduce .introduce-content div {
+  margin: 10px 0;
+}
+
+.room-left .introduce .introduce-content i {
+  margin: 10px 10px 10px 0;
+}
+.room-left .introduce .btn-introduce {
+  padding: 10px 25px;
+  margin-bottom: 20px;
+  font-size: 17px;
+  color: black;
+  font-weight: bold;
+  border-radius: 10px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.room-left .introduce .btn-introduce:hover {
+  background: rgba(221, 222, 221);
+  cursor: pointer;
+}
+
+.room-rent .room-right {
+  width: 40%;
+  text-align: center;
+}
+.room-right .room-card {
+  margin-top: 20px;
+  height: 500px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 6px 16px;
+  border-radius: 20px;
+  padding: 0 80px;
+}
+
+.room-right .room-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+.room-right .room-title .room-title-span {
+  opacity: 1;
+  font-weight: bold;
+}
+.room-right .room-price {
+  font-size: 15px;
+  font-weight: bold;
+}
+.room-right .room-price span {
+  padding: 5px;
+}
+.room-right .room-price span {
+  font-weight: 100;
+  opacity: 0.7;
+}
+
+.room-right .ant-picker {
+  margin-top: 20px;
+  border-radius: 10px 10px 0 0;
+}
+.room-right .ant-btn {
+  border: 1px solid gray;
+  opacity: 0.5;
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 20px;
+}
+.room-right .ant-btn span {
+  margin-top: 1px;
+}
+.room-right .ant-picker-input input {
+  text-align: center;
+  padding: 15px 20px;
+}
+.room-right .btn-card {
+  padding: 15px 25px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 20px;
+  background: #ff385c;
+  margin-top: 10px;
+  width: 100%;
+}
+.room-right .btn-card:hover {
+  cursor: pointer;
+}
+.room-right .room-report i {
+  margin: 10px 25px;
+}
+
+.room-right .room-report a {
+  opacity: 0.7;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.room-right .deducted {
+  margin: 15px 0;
+  font-size: 14px;
+  opacity: 0.8;
+}
+.room-right .charge {
+  display: flex;
+  justify-content: space-between;
+}
+.room-right .charge .charge-detail {
+  opacity: 0.6;
+  text-decoration: underline;
+}
+.room-right .charge .charge-detail:hover {
+  cursor: pointer;
+}
+.room-right .charge .charged {
+  color: rgb(0, 138, 5);
+}
+
+.room-right .tax {
+  display: flex;
+  justify-content: space-between;
+}
+.room-right .tax .tax-title {
+  font-size: 17px;
+  font-weight: bold;
+}
+.room-right .tax .tax-price {
+  font-weight: bold;
+}
+.room-right .room-place {
+  margin: 15px 0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+
+  height: 200px;
+  padding: 0 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.room-right .room-place h2 {
+  font-size: 15px;
+}
+.room-right .room-place h2 span {
+  opacity: 0.6;
+}
+.room-right .room-place i {
+  font-size: 40px;
+  color: #ff385c;
+}
+
+.ant-picker-range-separator {
+  display: none;
+}
+
+.ant-picker .ant-picker-suffix {
+  display: none;
+}
+.popover .ant-btn {
+  width: 0;
+  border: none;
+  opacity: 0.5;
+  border-radius: none;
+  margin-bottom: 0;
+}
+
+.room-give {
+  margin-top: 30px;
+
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 8px 8px 0 0;
+}
+
+.room-give .room-item {
+  display: flex;
+  margin-left: 15px;
+  margin-top: 10px;
+  align-items: center;
+  gap: 80px;
+}
+.room-give div {
+  display: flex;
+}
+.room-give .ant-picker-separator {
+  display: none;
+}
+.room-give .room-item .room-item-service {
+  margin-left: 17px;
+}
+
+.room-give .room-item .room-item-reservation {
+  margin-right: 60px;
+}
+
+.room-give .ant-picker {
+  margin-top: 0;
+}
+.room-give .ant-picker-input input {
+  padding: 0;
+  text-align: left;
+  margin-left: 17px;
+}
+
+.room-client {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 0 0 10px 10px;
+  margin-bottom: 10px;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.room-client .ant-btn {
+  border: none;
+  border-radius: 0;
+  margin: 0;
+  width: 0;
+}
+
+.room-client-item {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.room-client-popover {
+  margin-left: 14px;
+}

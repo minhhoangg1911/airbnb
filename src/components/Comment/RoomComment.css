@@ -1,0 +1,156 @@
+.room-comment .room-title {
+  margin-top: 40px;
+}
+.room-comment .room-title i {
+  margin-right: 10px;
+}
+.room-comment .room-title span {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.room-comment .room-judge {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 10px;
+}
+.room-comment .room-judge .row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 50px;
+}
+.room-comment .room-judge .row .col {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.room-comment .room-judge div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.room-comment .room-judge div .width {
+  border: 3px solid black;
+  width: 100px;
+  height: 1px;
+  margin-right: 20px;
+}
+
+.room-comment .room-judge .row .col .item .width {
+  background: red;
+  width: 200px;
+  height: 40px;
+}
+
+.room-user {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.room-user .row {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+.room-user .row .item {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.room-user .row img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+.room-user .row .item span {
+  opacity: 0.5;
+}
+
+.room-user .row .text span {
+  letter-spacing: 1px;
+  font-size: 15px;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+.room-user .row .text-load {
+  margin-top: 10px;
+}
+
+.room-user .row .text-load a {
+  margin-right: 10px;
+  color: black;
+}
+.room-user .row .text-load i {
+  font-size: 12px;
+}
+.room-user .btn-user {
+  margin-top: 30px;
+  padding: 15px 20px;
+  width: 250px;
+  color: black;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  margin-bottom: 20px;
+}
+.room-user .btn-user:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.btn {
+  display: flex;
+  margin-top: 5px;
+  gap: 5px;
+}
+.btn-edit {
+  padding: 0 5px;
+  border: none;
+  cursor: pointer;
+  background: #f2f3f5;
+  border-radius: 5px;
+  color: black;
+  padding: 5px 10px;
+}
+.btn-delete {
+  padding: 0 5px;
+
+  background: #f2f3f5;
+  color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add-comment {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.add-comment .add-text {
+  width: 200px;
+  height: 30px;
+  padding: 25px 20px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  background: #f2f3f5;
+}
+.add-comment .btn-add {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  padding: 20px;
+  cursor: pointer;
+  border: none;
+}
